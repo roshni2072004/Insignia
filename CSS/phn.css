@@ -1,0 +1,124 @@
+#skills {
+  height: 100%;
+}
+#content1 {
+  width: 60%;
+}
+#img1 {
+  width: 40%;
+}
+#items1 h1 {
+  font-size: 35px;
+}
+#skills .container {
+  background-color: rgb(41, 39, 39);
+}
+
+#content2 {
+  width: 70%;
+}
+#img2 {
+  width: 90%;
+  height: 300px;
+}
+
+.box {
+  padding: 2%;
+  border-radius: 25px;
+  width: 90%;
+  margin: 6% 5%;
+}
+.download-app{
+  height: 100%;
+  flex-direction: column;
+}
+#content-app{
+  width: 90%;
+}
+
+#img2{
+  margin-top: 4%;
+}
+.user {
+  width: 500px;
+}
+
+#projects .heading {
+  font-size: 30px;
+  margin-top: 5px;
+}
+
+.projects {
+  height: 100%;
+}
+#items2{
+  flex-direction: row;
+  overflow: hidden;
+}
+.card{
+  width: 80%;
+}
+
+#media{
+  justify-content: center;
+}
+@media (max-width: 660px) {
+  #img2 {
+    width: 90%;
+    height: 200px;
+    margin: 0% 10% 0% 10%;
+  }
+  #projects {
+    flex-direction: column;
+  }
+  #content2 {
+    width: 90%;
+    margin-left: 5%;
+  }
+  #skills {
+    height: 100%;
+    margin-top: 0;
+  }
+  #content1 {
+    width: 100%;
+  }
+  #img1 {
+    width: 90%;
+    height: 200px;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .social {
+    flex-direction: column;
+    margin: 0;
+  }
+  
+  .profile {
+    width: 100%;
+    margin: 0;
+  }
+  .social-handles {
+    width: 100%;
+    margin-left: 5%;
+  }
+  .social-handles .heading {
+   margin-left: 30%;
+  }
+  #subs{
+    flex-direction: column;
+  }
+  #subs div{
+    width: 90%;
+  }
+  #logo1 {
+    margin-right: 10%;
+  }
+.space{
+  margin: 0;
+  }
+.user {
+  width: 400px;
+  }
+  
+}
